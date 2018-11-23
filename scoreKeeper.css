@@ -15,10 +15,6 @@ body {
   font-family: 'Monoton', cursive;
 }
 
-hr {
-  border: 
-}
-
 #container #scores {
   font-family: 'Chakra Petch', sans-serif;
 }
@@ -57,7 +53,7 @@ hr {
 footer {
   text-align: center;
   text-decoration: blink;
-  margin: 20px 800px;
+  margin: 0% 30%;
   background-color: yellow;
 }
 
