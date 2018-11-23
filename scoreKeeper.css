@@ -1,0 +1,79 @@
+.winner {
+	color: green;
+}
+
+body {
+  background-color: rgb(255, 250, 205);
+}
+
+.desc {
+  text-align: center;
+}
+
+#deskripsi h1 {
+  font-size: 70px;
+  font-family: 'Monoton', cursive;
+}
+
+hr {
+  border: 
+}
+
+#container #scores {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#reset {
+  background-color: red;
+}
+
+#deskripsi p {
+  padding: 0px 200px;
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+
+#score-max {
+  margin-bottom: 5px;
+}
+
+#deskripsi {
+  color: rgb(71, 1, 133);
+  padding: 20px 0px 35px 0px;
+}
+
+#inputnya {
+  font-size: 50px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  text-decoration: blink;
+  margin: 20px 800px;
+  background-color: yellow;
+}
+
+#scores {
+  font-size: 175px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+input {
+  height: 50px;
+  width: 50px;
+}
