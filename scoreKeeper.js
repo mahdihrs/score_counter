@@ -18,7 +18,7 @@ p1.addEventListener('click', function(){
 	if (p1Score === batasScore) { 
 	  gameOver = true
 	  scoreP1.classList.add('winner')
-	  alert('Player 1 Wins The Game!')
+	  alert('Player 1 Won The Game!')
 	}
 	scoreP1.textContent = p1Score
   }
@@ -30,7 +30,7 @@ p2.addEventListener('click', function(){
   	if (p2Score === batasScore) {
   	  gameOver = true
   	  scoreP2.classList.add('winner')
-  	  alert('Player 2 Wins The Game!')
+  	  alert('Player 2 Won The Game!')
   	}
     scoreP2.textContent = p2Score
   }
