@@ -6,24 +6,26 @@ var scoreP2 = document.getElementById('scorePlayerTwo')
 var p1Score = 0
 var p2Score = 0
 var gameOver = false
-var batasScore = 5 //bisa berubah tergantung input
+var batasScore = 5 //bisa berubah tergantung pada input
 var nilaiInput = document.querySelector('input')
 var batasAtasScore = document.querySelector('#batas')
 p1.textContent = prompt('Write down the Player 1\'s name')
 p2.textContent = prompt('Write down the Player 2\'s name')
 
+//manipulasi untuk tombol Player 1
 p1.addEventListener('click', function(){
   if (gameOver === false) {
-	p1Score++
-	if (p1Score === batasScore) {
-	  gameOver = true
-	  scoreP1.classList.add('winner')
-	  alert(p1.textContent + ' Won The Game!')
-	}
-	scoreP1.textContent = p1Score
+	  p1Score++
+	  if (p1Score === batasScore) {
+      gameOver = true
+    	scoreP1.classList.add('winner')
+    	alert(p1.textContent + ' Won The Game!')
+	  }
+	  scoreP1.textContent = p1Score
   }
 })
 
+//manipulasi untuk tombol Player 2
 p2.addEventListener('click', function(){
   if (gameOver === false) {
   	p2Score++
@@ -36,6 +38,7 @@ p2.addEventListener('click', function(){
   }
 })
 
+//manipulasi tombol reset
 reset.addEventListener('click', function(){
   resetAll()
 })
