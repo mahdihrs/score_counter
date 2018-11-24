@@ -13,12 +13,12 @@ p1.textContent = prompt('Write down the Player 1\'s name')
 p2.textContent = prompt('Write down the Player 2\'s name')
 
 p1.addEventListener('click', function(){
-  if (gameOver === false) { 
+  if (gameOver === false) {
 	p1Score++
-	if (p1Score === batasScore) { 
+	if (p1Score === batasScore) {
 	  gameOver = true
 	  scoreP1.classList.add('winner')
-	  alert('Player 1 Won The Game!')
+	  alert(p1.textContent + ' Won The Game!')
 	}
 	scoreP1.textContent = p1Score
   }
@@ -30,7 +30,7 @@ p2.addEventListener('click', function(){
   	if (p2Score === batasScore) {
   	  gameOver = true
   	  scoreP2.classList.add('winner')
-  	  alert('Player 2 Won The Game!')
+  	  alert(p2.textContent + ' Won The Game!')
   	}
     scoreP2.textContent = p2Score
   }
@@ -50,7 +50,7 @@ function resetAll() {
   scoreP1.classList.remove('winner')
   scoreP2.classList.remove('winner')
 }
- 
+
 nilaiInput.addEventListener('change', function(){
   batasAtasScore.textContent = nilaiInput.value
   batasScore = Number(nilaiInput.value)
